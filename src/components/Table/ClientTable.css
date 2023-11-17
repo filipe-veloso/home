@@ -1,0 +1,49 @@
+ .table-container-material{
+    max-height: 70vh;
+    margin: 12px 24px;
+} 
+
+
+.container-tablecell {
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+
+
+/* div do cabeçalho da tabela para o icone ficar em posicao correta*/
+.box-client-filter {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    
+}
+
+.box-img-cobranca img{
+    width: 50px;
+}
+
+
+/*  status do cliente */
+
+.box-table-status {
+    text-align: center;
+    width: 110px;
+    height: 25px;
+    padding: 0px 8px;
+
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+.status-inadimplente {
+    background-color: #ffefef;
+    color: #971d1d;
+}
+
+.status-emdia {
+    background-color: #eef6f6;
+    color: #1fa7af;
+}

@@ -1,0 +1,73 @@
+ .header-main {
+    width: calc(100vw - 180px);
+}
+
+.header-container{
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 22px;
+    border-bottom: 1px solid #acd9c5;
+} 
+
+
+.header-profile-icon{
+    display:flex;
+    align-items: center;
+    margin-right: 106px;
+  
+    
+}
+
+.header-initial-letters {
+    background-color: #DEDEE9;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 16px;
+}  
+
+
+
+/* classname = home */
+.header-home {
+    display: flex;
+    align-items: center;
+    color: #0E8750;
+}
+
+.header-home h2 {
+    color:  #343447;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%; 
+
+    margin-left: 50px;
+}
+
+/* classsname = clients */
+
+.header-clients h2 {
+
+    display: flex;
+    align-items: end;
+    
+    margin-left: 100px;
+    margin-bottom: 8px;
+
+
+    color: #0E8750;
+
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    
+}

@@ -1,0 +1,21 @@
+
+
+
+
+.add-client-btn{
+    font-size: 18px;
+    font-family: var(--type-first);
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+
+    width: 260px;
+    color: #F8F8F9;
+    background: #DA0175;
+    padding: 10px 20px;
+}
+
+.img-filter {
+    margin-left: 30px;
+    cursor: pointer;
+}
